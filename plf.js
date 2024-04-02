@@ -8,7 +8,7 @@ overlay.style.cssText = `
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 50%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.7);
     z-index: 999;
@@ -19,13 +19,13 @@ svgImage.id = 'svgImage';
 svgImage.src = 'https://alfa-13.github.io/plf/logo-app.png';
 svgImage.style.cssText = `
     max-width: 100%;
-    max-height: 100%;
+    
     display: none;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-`;
+`; //max-height: 100%;
 svgImage.style.display = 'none';
 
 // Append the elements to the body
