@@ -35,9 +35,10 @@ document.body.appendChild(svgImage);
 
 // Function to hide the overlay and display the SVG
 function hideOverlay() {
-    setTimeout(hideOverlay, 10000);
-    overlay.style.display = 'none';
-    svgImage.style.display = 'block';
+    setTimeout(() => {
+        overlay.style.display = 'none';
+        svgImage.style.display = 'block';
+    }, 10000);
 }
 
 // Add an event listener to hide the overlay when all external JS files are loaded
