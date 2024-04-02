@@ -16,8 +16,7 @@ overlay.style.cssText = `
 
 const svgImage = document.createElement('img');
 svgImage.id = 'svgImage';
-//svgImage.src = 'https://alfa-13.github.io/plf/i.png'; Esta es la correcta
-svgImage.src = 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHpiaTg5ZzUwazd2djRjdWRscWxyY3FqOWF0b2RxOWhhYXRzMXRjeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26hlQp71jpHyds2t2/giphy.gif'
+svgImage.src = 'https://alfa-13.github.io/plf/i.png'
 svgImage.style.cssText = `
     max-width: 50%;
     
@@ -35,10 +34,8 @@ document.body.appendChild(svgImage);
 
 // Function to hide the overlay and display the SVG
 function hideOverlay() {
-    setTimeout(() => {
-        overlay.style.display = 'none';
-        svgImage.style.display = 'block';
-    }, 10000);
+    overlay.style.display = 'none';
+    svgImage.style.display = 'block';
 }
 
 // Add an event listener to hide the overlay when all external JS files are loaded
