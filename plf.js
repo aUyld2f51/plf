@@ -42,7 +42,7 @@ function hideOverlay() {
 document.addEventListener('DOMContentLoaded', () => {
     // Replace the following lines with the actual code that loads your external JS files
     // For demonstration purposes, we'll use a setTimeout to simulate loading external JS files.
-    setTimeout(hideOverlay, 10000); // Replace with your actual loading code.
+    setTimeout(hideOverlay, 100); // Replace with your actual loading code.
 });
 
 // Fallback: If all external resources are loaded and the DOMContentLoaded event doesn't fire,
