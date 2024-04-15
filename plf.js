@@ -16,7 +16,7 @@ overlay.style.cssText = `
 
 const svgImage = document.createElement('img');
 svgImage.id = 'svgImage';
-svgImage.src = 'https://i.ibb.co/GpBCf1z/Logo.png'
+svgImage.src = './l.png';
 svgImage.style.cssText = `
     max-width: 50%;
     
