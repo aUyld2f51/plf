@@ -18,6 +18,7 @@ const svgImage = document.createElement('img');
 svgImage.id = 'svgImage';
 svgImage.src = 'https://alfa-13.github.io/plf/lg.png';
 svgImage.style.cssText = `
+    background-color: blue;
     position: absolute;
     top: 50%;
     left: 50%;
