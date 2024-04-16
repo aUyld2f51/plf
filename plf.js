@@ -23,7 +23,7 @@ svgImage.style.cssText = `
     left: 50%;
     transform: translate(-50%, -50%);
 `;
-//svgImage.style.display = 'none';
+svgImage.style.display = 'none';
 
 // Append the elements to the body
 document.body.appendChild(overlay);
@@ -32,7 +32,7 @@ document.body.appendChild(svgImage);
 
 function hideOverlay() {
     overlay.style.display = 'none';
-    //svgImage.style.display = 'block';
+    svgImage.style.display = 'block';
 }
 
 window.addEventListener('load', hideOverlay);
