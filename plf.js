@@ -1,4 +1,6 @@
 const overlay = document.createElement('div');
+// Create the overlay and SVG elements
+const overlay = document.createElement('div');
 overlay.style.cssText = `
     display: flex;
     justify-content: center;
@@ -18,8 +20,11 @@ overlay.style.cssText = `
 
 document.body.appendChild(overlay);
 
+
 function hideOverlay() {
     overlay.style.display = 'none';
 }
 
-window.addEventListener('load', hideOverlay);
+window.addEventListener('load', () => {
+    setTimeout(hideOverlay, 2000);
+});
