@@ -32,7 +32,6 @@ document.body.appendChild(svgImage);
 
 
 function hideOverlay() {
-    overlay.style.display = 'none';
     svgImage.style.display = 'block';
 }
 
