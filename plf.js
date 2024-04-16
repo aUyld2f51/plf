@@ -16,7 +16,7 @@ overlay.style.cssText = `
 
 const svgImage = document.createElement('img');
 svgImage.id = 'svgImage';
-svgImage.src = './lg.png';
+svgImage.src = 'https://alfa-13.github.io/plf/lg.png';
 svgImage.style.cssText = `
     position: absolute;
     top: 50%;
