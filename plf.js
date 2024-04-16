@@ -18,9 +18,6 @@ const svgImage = document.createElement('img');
 svgImage.id = 'svgImage';
 svgImage.src = './lg.png';
 svgImage.style.cssText = `
-    max-width: 100%;
-    max-height: 100%;
-    display: none;
     position: absolute;
     top: 50%;
     left: 50%;
