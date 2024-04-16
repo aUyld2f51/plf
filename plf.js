@@ -16,7 +16,7 @@ overlay.style.cssText = `
 
 const svgImage = document.createElement('img');
 svgImage.id = 'svgImage';
-svgImage.src = './logo-app.png';
+svgImage.src = './lg.png';
 svgImage.style.cssText = `
     max-width: 100%;
     max-height: 100%;
@@ -26,16 +26,8 @@ svgImage.style.cssText = `
     left: 50%;
     transform: translate(-50%, -50%);
 `;
-svgImage.style.display = 'none';
+//svgImage.style.display = 'none';
 
 // Append the elements to the body
 document.body.appendChild(overlay);
 document.body.appendChild(svgImage);
-
-// Function to hide the overlay and display the SVG
-function hideOverlay() {
-    overlay.style.display = 'none';
-    svgImage.style.display = 'block';
-}
-
-window.addEventListener('load', hideOverlay);
