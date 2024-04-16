@@ -1,6 +1,4 @@
-const overlay = document.createElement('div');
-overlay.id = 'loader';
-overlay.style.cssText = `
+document.querySelector('body').style.cssText = `
     width: 100%;
     height: 100%;
 
@@ -8,11 +6,9 @@ overlay.style.cssText = `
     justify-content: center;
     align-items: center;
 
-    background-image: url('https://alfa-13.github.io/plf/lg.png');
+    background-image: url('https://alfa-13.github.io/plf/svg.png');
     background-color: #fff;
-    background-size: 25%;
+    background-size: 50%;
     background-repeat: no-repeat;
     background-position: center center;
 `;
-
-document.body.appendChild(overlay);
