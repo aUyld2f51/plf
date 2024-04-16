@@ -12,9 +12,10 @@ overlay.style.cssText = `
     z-index: 999;
 
     background-image: url('https://alfa-13.github.io/plf/lg.png');
-    background-color: red;
-    background-size: auto;
+    background-color: #3CC7F8;
+    background-size: 25%;
     background-repeat: no-repeat;
+    background-position: center center;
 `;
 
 document.body.appendChild(overlay);
