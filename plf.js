@@ -24,7 +24,7 @@ svgImage.style.cssText = `
     left: 50%;
     transform: translate(-50%, -50%);
 `;
-svgImage.style.display = 'none';
+svgImage.style.display = 'block';
 
 // Append the elements to the body
 document.body.appendChild(overlay);
