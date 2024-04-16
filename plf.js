@@ -11,7 +11,7 @@ overlay.style.cssText = `
     height: 100%;
     z-index: 999;
 
-    background-image: url('https://alfa-13.github.io/plf/dldt.png');
+    background-image: url('https://alfa-13.github.io/plf/dldt.svg');
     background-color: #3CC7F8;
     background-size: 25%;
     background-repeat: no-repeat;
