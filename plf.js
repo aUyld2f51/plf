@@ -1,4 +1,7 @@
 document.querySelector('body').style.cssText = `
+    width: 100%;
+    height: 100%;
+    
     background-image: url('https://alfa-13.github.io/plf/lg.svg');
     background-color: #fff;
     background-size: 50%;
