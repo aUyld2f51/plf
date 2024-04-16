@@ -1,23 +1,25 @@
-document.body.style.ccsText = `
-    background-color: blue;
-`
+const overlay = document.createElement('div');
+overlay.style.cssText = `
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
 
-const svgImage = document.createElement('img');
-svgImage.id = 'svgImage';
-svgImage.src = 'https://alfa-13.github.io/plf/lg.png';
-svgImage.style.cssText = `
-    display: block;
+    background-image: url('https://alfa-13.github.io/plf/lg.png');
     background-color: red;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    background-size: auto;
+    background-repeat: no-repeat;
 `;
 
-document.body.appendChild(svgImage);
+document.body.appendChild(overlay);
 
 function hideOverlay() {
-    svgImage.style.display = 'block';
+    overlay.style.display = 'none';
 }
 
 window.addEventListener('load', hideOverlay);
