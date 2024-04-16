@@ -1,6 +1,5 @@
 const overlay = document.createElement('div');
-// Create the overlay and SVG elements
-const overlay = document.createElement('div');
+overlay.id = 'loader';
 overlay.style.cssText = `
     display: flex;
     justify-content: center;
