@@ -10,7 +10,7 @@ overlay.style.cssText = `
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #2387e9;
+    background-color: #2387ff;
     z-index: 999;
 `;
 
@@ -23,7 +23,6 @@ svgImage.style.cssText = `
     left: 50%;
     transform: translate(-50%, -50%);
 `;
-//svgImage.style.display = 'none';
 
 // Append the elements to the body
 document.body.appendChild(overlay);
