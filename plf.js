@@ -1,3 +1,4 @@
+// Create the overlay and SVG elements
 const overlay = document.createElement('div');
 overlay.id = 'loader';
 overlay.style.cssText = `
@@ -27,3 +28,11 @@ svgImage.style.cssText = `
 // Append the elements to the body
 document.body.appendChild(overlay);
 document.body.appendChild(svgImage);
+
+
+function hideOverlay() {
+    overlay.style.display = 'none';
+    //svgImage.style.display = 'block';
+}
+
+window.addEventListener('load', hideOverlay);
