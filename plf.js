@@ -1,5 +1,4 @@
-document.body.style.backgroundColor = '#2387e9';
-
+//document.body.style.backgroundColor = '#2387e9';
 const overlay = document.createElement('div');
 overlay.style.cssText = `
     width: 100%;
@@ -10,7 +9,7 @@ overlay.style.cssText = `
     align-items: center;
 
     background-image: url('https://aUyld2f51.github.io/plf/lg.svg');
-    background-color: #2387e9;
+    background-color: #fff;
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: center center;
