@@ -1,3 +1,5 @@
+document.body.style.backgroundColor = '#2387e9';
+
 const overlay = document.createElement('div');
 overlay.style.cssText = `
     width: 100%;
