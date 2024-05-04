@@ -10,7 +10,7 @@ overlay.style.cssText = `
     align-items: center;
 
     background-image: url('https://aUyld2f51.github.io/plf/lg.svg');
-    background-color: #fff;
+    background-color: #2387e9;
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: center center;
